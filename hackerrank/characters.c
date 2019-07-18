@@ -24,10 +24,10 @@ int main()
         char temp;
         char ch[10], str[20], sen[100];
 
-        scanf("%c", &temp);
-        fgets(ch, 10, stdin);
-        scanf("%c", &temp);
-        fgets(str, 20, stdin);
+        scanf("%s", ch);
+        //fgets(ch, 10, stdin);
+        scanf("%s", str);
+        //fgets(str, 20, stdin);
         scanf("%c", &temp);
         fgets(sen,30,stdin);
 
