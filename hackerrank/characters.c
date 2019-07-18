@@ -31,9 +31,7 @@ int main()
         scanf("%c", &temp);
         fgets(sen,30,stdin);
 
-        printf("%s\n", ch);
-        printf("%s\n", str);
-        printf("%s", sen);
+        printf("%s\n%s\n%s", ch,str,sen);
 
 
         return 0;
