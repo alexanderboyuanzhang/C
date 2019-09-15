@@ -10,12 +10,13 @@ int main()
 
         for(int i = 1; i<=(n); i++) {
                 int j = 0;
-                for(j=1; j<=(n); j++) {
+                for(j=1; j<=(n+n-1); j++) {
 
                         if(j<=i) {
                                 printf("%d", n-j+1);
-                        }else
+                        }else if(i+j<=n*2)
                                 printf("%d",n-i+1);
+                        else printf("%d",j-n+1 );
                 }
 
                 printf("\n");
